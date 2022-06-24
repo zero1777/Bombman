@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Allegro5Exception.cpp" />
+    <ClCompile Include="AudioHelper.cpp" />
+    <ClCompile Include="Bomb.cpp" />
+    <ClCompile Include="BombEffect.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="DirtyEffect.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="ExplosionEffect.cpp" />
+    <ClCompile Include="FireBullet.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GamePlayScene.cpp" />
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="Ice.cpp" />
+    <ClCompile Include="IceEffect.cpp" />
+    <ClCompile Include="IControl.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageButton.cpp" />
+    <ClCompile Include="IObject.cpp" />
+    <ClCompile Include="IScene.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LaserBullet.cpp" />
+    <ClCompile Include="LaserTurret.cpp" />
+    <ClCompile Include="LOG.cpp" />
+    <ClCompile Include="LoseScene.cpp" />
+    <ClCompile Include="MachineGunTurret.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MissileBullet.cpp" />
+    <ClCompile Include="MissileTurret.cpp" />
+    <ClCompile Include="P1WinScene.cpp" />
+    <ClCompile Include="P2WinScene.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PlaneEnemy.cpp" />
+    <ClCompile Include="Player1.cpp" />
+    <ClCompile Include="Player2.cpp" />
+    <ClCompile Include="PlayerSelectScene.cpp" />
+    <ClCompile Include="PlayerSelectScene2.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="PlugGunTurret.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="RedNormalEnemy.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="rocket_bullet.cpp" />
+    <ClCompile Include="rocket_turret.cpp" />
+    <ClCompile Include="Shoes.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="SoldierEnemy.cpp" />
+    <ClCompile Include="soldier_4_enemy.cpp" />
+    <ClCompile Include="SpellRange.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="StageSelectScene.cpp" />
+    <ClCompile Include="StartScene.cpp" />
+    <ClCompile Include="start_scene.cpp" />
+    <ClCompile Include="TankEnemy.cpp" />
+    <ClCompile Include="Thunder.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="TurretButton.cpp" />
+    <ClCompile Include="WinScene.cpp" />
+    <ClCompile Include="WoodBullet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Allegro5Exception.hpp" />
+    <ClInclude Include="AudioHelper.hpp" />
+    <ClInclude Include="Bomb.hpp" />
+    <ClInclude Include="BombEffect.hpp" />
+    <ClInclude Include="Bullet.hpp" />
+    <ClInclude Include="Collider.hpp" />
+    <ClInclude Include="DirtyEffect.hpp" />
+    <ClInclude Include="Enemy.hpp" />
+    <ClInclude Include="ExplosionEffect.hpp" />
+    <ClInclude Include="FireBullet.hpp" />
+    <ClInclude Include="GameEngine.hpp" />
+    <ClInclude Include="GamePlayScene.hpp" />
+    <ClInclude Include="Group.hpp" />
+    <ClInclude Include="Ice.hpp" />
+    <ClInclude Include="IceEffect.hpp" />
+    <ClInclude Include="IControl.hpp" />
+    <ClInclude Include="Image.hpp" />
+    <ClInclude Include="ImageButton.hpp" />
+    <ClInclude Include="IObject.hpp" />
+    <ClInclude Include="IScene.hpp" />
+    <ClInclude Include="Label.hpp" />
+    <ClInclude Include="LaserBullet.hpp" />
+    <ClInclude Include="LaserTurret.hpp" />
+    <ClInclude Include="LOG.hpp" />
+    <ClInclude Include="LoseScene.hpp" />
+    <ClInclude Include="MachineGunTurret.hpp" />
+    <ClInclude Include="MissileBullet.hpp" />
+    <ClInclude Include="MissileTurret.hpp" />
+    <ClInclude Include="P1WinScene.hpp" />
+    <ClInclude Include="P2WinScene.hpp" />
+    <ClInclude Include="Plane.hpp" />
+    <ClInclude Include="PlaneEnemy.hpp" />
+    <ClInclude Include="Player1.hpp" />
+    <ClInclude Include="Player2.hpp" />
+    <ClInclude Include="PlayerSelectScene.hpp" />
+    <ClInclude Include="PlayerSelectScene2.hpp" />
+    <ClInclude Include="PlayScene.hpp" />
+    <ClInclude Include="PlugGunTurret.hpp" />
+    <ClInclude Include="Point.hpp" />
+    <ClInclude Include="RedNormalEnemy.hpp" />
+    <ClInclude Include="Resources.hpp" />
+    <ClInclude Include="rocket_bullet.hpp" />
+    <ClInclude Include="rocket_turret.hpp" />
+    <ClInclude Include="Shoes.hpp" />
+    <ClInclude Include="Slider.hpp" />
+    <ClInclude Include="SoldierEnemy.hpp" />
+    <ClInclude Include="soldier_4_enemy.hpp" />
+    <ClInclude Include="SpellRange.hpp" />
+    <ClInclude Include="Sprite.hpp" />
+    <ClInclude Include="StageSelectScene.hpp" />
+    <ClInclude Include="StartScene.h" />
+    <ClInclude Include="StartScene.hpp" />
+    <ClInclude Include="start_scene.hpp" />
+    <ClInclude Include="TankEnemy.hpp" />
+    <ClInclude Include="test.hpp" />
+    <ClInclude Include="Thunder.hpp" />
+    <ClInclude Include="Turret.hpp" />
+    <ClInclude Include="TurretButton.hpp" />
+    <ClInclude Include="WinScene.hpp" />
+    <ClInclude Include="WoodBullet.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="EngineClassDiagram.cd" />
+    <None Include="EngineClassDiagramMinimized.cd" />
+    <None Include="GameClassDiagram.cd" />
+    <None Include="GameClassDiagramMinimized.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="log.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{BBF6BFEC-7096-4DA9-8903-AFDE34FBB153}</ProjectGuid>
+    <RootNamespace>FinalProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Allegro.5.2.5.2\build\native\Allegro.targets" Condition="Exists('..\packages\Allegro.5.2.5.2\build\native\Allegro.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Allegro.5.2.5.2\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Allegro.5.2.5.2\build\native\Allegro.targets'))" />
+  </Target>
+</Project>
