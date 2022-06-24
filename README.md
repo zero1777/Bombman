@@ -10,7 +10,7 @@ Follow the step [here](https://github.com/j3soon/Allegro5Template/blob/master/do
 - Similar to other bombman games, players attack others or get abilities and props by placing bombs. 
 - There are 4 kinds of abilities / props
   - Thunder (ability): increase the damage of the bomb.
-  - Arrow (ability): increase the explosion range.
+  - Arrow (ability): increase the bomb explosion range.
   - Shoes (prop): Able to kick the placed bombs in a period of time.
   - Ice (prop): Freeze the player's movement.
 - Kill the other player (when HP reaches 0) to win the game!
