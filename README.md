@@ -1,7 +1,7 @@
 # Bombman
 NTHU CS. 10720 CS135602 Introduction to Programming (II). Final Project.
 
-Bombman game developed by Allegro5.
+This game is developed by Allegro5.
 
 ## Installation
 Follow the step [here](https://github.com/j3soon/Allegro5Template/blob/master/docs/README.md).
